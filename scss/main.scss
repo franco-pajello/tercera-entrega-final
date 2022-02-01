@@ -1,5 +1,30 @@
 @import "header-footer";
 @import "variables";
+
+.main__productos{
+  
+
+    .main__productos1 img{
+        width: 100%;
+        height: auto;
+}
+.main__productos2{
+    @extend .main__productos1;
+}
+.main__productos3{
+    @extend .main__productos1;
+}
+.main__productos4{
+    @extend .main__productos1;
+}
+.main__productos5{
+    @extend .main__productos1;
+}
+
+}
+
+
+
 /* ofertas */
 h1{
     color: tomato;
@@ -67,14 +92,17 @@ background-color: rgb(209, 248, 248);
     vegano: lightgreen,
     sin-sulfatos: lightgreen,
     sin-parabenos: lightgreen,
-    sin-crueldad:  lightgreen
+    sin-crueldad:  lightgreen,
+    1:Gray,
+    2:Gray,
+    3:Gray,
+    4:Gray
 
  );
  .iconos{
      display: flex;
      justify-content: space-around;
-     text-align: center;
-     
+     text-align: center;  
      @each $nombre, $valor in $iconos-form {
          .icono-#{$nombre}{
              border: $valor solid 0.5px;
