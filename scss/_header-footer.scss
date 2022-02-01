@@ -1,0 +1,132 @@
+/* header ofertas */
+@import "variables";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+  } 
+
+
+.header__menú{
+    grid-area: header; 
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+    align-items: center;
+    justify-self: center;
+     
+}
+    
+       .navbar{
+           .nav-item1 img{
+           height: auto;
+               width: 50%;
+              
+            }
+            .nav-item2 {
+                @extend .nav-item1;
+          }
+            .nav-item3{
+                @extend .nav-item1;
+           
+            }
+            .nav-item4{
+                @extend .nav-item1;
+        
+            }
+            .nav-item5{
+                @extend .nav-item1;
+               
+            }
+            
+            .nav-item6{
+                @extend .nav-item1;
+             
+            }
+            
+            
+        }
+        
+ /* footer */
+ .footer{
+    text-align: center;
+    justify-content: space-between;
+   font-family: 'Merriweather Sans', sans-serif;
+   color: black;
+   width: 100%;
+   height: auto;
+   margin-top: 10px;
+   background-color: $colorFooter;
+  & .footer__ubicacion{
+    text-align: center;
+    
+  }
+  & .footer__ubicacion a{
+    color:black;
+    text-decoration: none;
+  }
+  & .footer__nosotros{
+    width: 33%;
+    align-items:stretch;
+    height: 20px;
+  }
+
+   }
+ .registrarme{
+  
+    width: 33%;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+ }  
+ .tarjetas{
+  grid-area: tarjetas;
+  display: flex;
+  width: 100%;
+  height: auto;
+  .tarjeta1 img{
+    width: 100%;
+    height: auto;
+
+  } 
+  .tarjeta2{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta3{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta4{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta5{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta6{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta7{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta8{
+  @extend .tarjeta1;
+
+  }
+  .tarjeta9{
+  @extend .tarjeta1;
+
+  }
+}

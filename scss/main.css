@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* header ofertas */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__menú {
+  grid-area: header;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+}
+
+.navbar .nav-item1 img, .navbar .nav-item2 img, .navbar .nav-item3 img, .navbar .nav-item4 img, .navbar .nav-item5 img, .navbar .nav-item6 img {
+  height: auto;
+  width: 50%;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: black;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  background-color: #bdbdbd;
+}
+
+.footer .footer__ubicacion {
+  text-align: center;
+}
+
+.footer .footer__ubicacion a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer .footer__nosotros {
+  width: 33%;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  height: 20px;
+}
+
+.registrarme {
+  width: 33%;
+}
+
+.registrarme a {
+  color: black;
+  text-decoration: none;
+}
+
+.tarjetas {
+  grid-area: tarjetas;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.tarjetas .tarjeta1 img, .tarjetas .tarjeta2 img, .tarjetas .tarjeta3 img, .tarjetas .tarjeta4 img, .tarjetas .tarjeta5 img, .tarjetas .tarjeta6 img, .tarjetas .tarjeta7 img, .tarjetas .tarjeta8 img, .tarjetas .tarjeta9 img {
+  width: 100%;
+  height: auto;
+}
+
+/* ofertas */
+h1 {
+  color: tomato;
+}
+
+.main__form__botones .main__form__btn1 {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: green 2px solid;
+}
+
+.main__form__botones .main__form__btn1:hover {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: #a9cdda;
+  border: black 2px solid;
+}
+
+.main__form__botones .main__form__btn2 {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: blue 2px solid;
+}
+
+.main__form__botones .main__form__btn2:hover {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: #e87474;
+  border: black 2px solid;
+}
+
+.main__form__botones .main__form__btn3 {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  border: #e87474 2px solid;
+}
+
+.main__form__botones .main__form__btn3:hover {
+  display: inline-block;
+  padding: 0.3%;
+  text-decoration: none;
+  color: black;
+  background-color: #ebbb63;
+  border: black 2px solid;
+}
+
+#main-form {
+  border: darkgray 0.5px solid;
+  background-color: #d1f8f8;
+}
+
+#main-form .main__form__ingrese__nombre, #main-form .main__form__ingrese__apellido, #main-form .main__form__edad__numero, #main-form .main__form__email, #main-form .main__form__contraseña, #main-form .main__form__pais {
+  border: black solid 0.5px;
+  cursor: text;
+  background-color: transparent;
+  padding: auto;
+  color: gray;
+  text-align: center;
+  font-size: 84%;
+}
+
+.iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.iconos .icono-vegano {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-vegano img {
+  width: 50%;
+  height: auto;
+}
+
+.iconos .icono-sin-sulfatos {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-sin-sulfatos img {
+  width: 50%;
+  height: auto;
+}
+
+.iconos .icono-sin-parabenos {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-sin-parabenos img {
+  width: 50%;
+  height: auto;
+}
+
+.iconos .icono-sin-crueldad {
+  border: lightgreen solid 0.5px;
+}
+
+.iconos .icono-sin-crueldad img {
+  width: 50%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
