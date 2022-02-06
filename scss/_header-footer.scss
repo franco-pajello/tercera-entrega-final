@@ -13,21 +13,26 @@
 
 
 .header__menú{
-    grid-area: header; 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
     width: 100%;
     height: auto;
-    background-color:transparent;
-    align-items: center;
-    justify-self: center;
-     
+.header__logo  {
+text-align: center;
+ 
 }
+} 
     
-       .navbar{
+.navbar{
       
            .nav-item1 img{
-           height: auto;
-               width: 50%;
+            height: auto;
+               width: 30%;
+               justify-self: center;
+            
+           
               
             }
             .nav-item2 {

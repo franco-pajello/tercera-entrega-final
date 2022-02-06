@@ -1,13 +1,25 @@
 @import "header-footer";
 @import "variables";
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+  } 
+
+
 .main__productos{
-  
+
 
     .main__productos1 img{
         width: 100%;
         height: auto;
-}
+    }
 .main__productos2{
     @extend .main__productos1;
 }
@@ -22,6 +34,26 @@
 }
 
 }
+
+
+
+.carrucel{
+    margin-top: 5%;
+    width: 100%;
+        h5{
+            font-size: 30vh;
+            font-style: italic;
+            -webkit-text-stroke:0.09vh rgb(243, 118, 118) ;
+            color:rgb(255, 157, 157);
+           
+        }
+        
+
+        .carousel-item img{
+            height: 70vh;
+            width: 100%;
+        }
+    }
 
 
 
@@ -105,7 +137,9 @@ background-color: rgb(209, 248, 248);
      text-align: center;  
      @each $nombre, $valor in $iconos-form {
          .icono-#{$nombre}{
-             border: $valor solid 0.5px;
+             border-right: $valor solid 0.5px;
+             border-left: $valor solid 0.5px;
+             
              
             }
             .icono-#{$nombre} img{
