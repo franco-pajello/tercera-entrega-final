@@ -15,6 +15,8 @@
 .header__menú{
     display: flex;
     justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%; 
     align-items: center;
     background-color:transparent;
     width: 100%;
@@ -26,12 +28,15 @@ text-align: center;
 } 
     
 .navbar{
-      
+      background-color: pink;
+      border-radius: 5px;
+    
            .nav-item1 img{
             height: auto;
                width: 30%;
                justify-self: center;
-            
+               
+           
            
               
             }
@@ -64,7 +69,7 @@ text-align: center;
     text-align: center;
     justify-content: space-between;
    font-family: 'Merriweather Sans', sans-serif;
-   color: black;
+   color:white;
    width: 100%;
    height: auto;
    margin-top: 10px;
@@ -73,8 +78,18 @@ text-align: center;
     text-align: center;
     
   }
+  & .footer__ubicacion__icon{
+   justify-content:center;
+    display: flex;
+    
+  }
+  & .footer__instagram{
+   justify-content:center;
+    display: flex;
+    
+  }
   & .footer__ubicacion a{
-    color:black;
+    color:white;
     text-decoration: none;
   }
   & .footer__nosotros{
@@ -88,7 +103,7 @@ text-align: center;
   
     width: 33%;
     a{
-        color: black;
+        color:white;
         text-decoration: none;
     }
 
@@ -98,6 +113,7 @@ text-align: center;
   display: flex;
   width: 100%;
   height: auto;
+  align-items: center;
   .tarjeta1 img{
     width: 100%;
     height: auto;

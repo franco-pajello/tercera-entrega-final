@@ -11,26 +11,40 @@
     text-decoration: none;
     box-sizing: border-box;
   } 
-
+   .container {
+      width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: block;
+  } 
 
 .main__productos{
+    text-align: center;
 
-
+.main__productos p {
+  color: black;
+  text-decoration: transparent;
+}
     .main__productos1 img{
         width: 100%;
         height: auto;
     }
 .main__productos2{
     @extend .main__productos1;
+    
 }
 .main__productos3{
     @extend .main__productos1;
+    
 }
 .main__productos4{
     @extend .main__productos1;
+    
 }
 .main__productos5{
     @extend .main__productos1;
+    
 }
 
 }
@@ -38,8 +52,8 @@
 
 
 .carrucel{
-    margin-top: 5%;
-    width: 100%;
+   margin-top: 5%;
+   margin-bottom: 5%;
         h5{
             font-size: 30vh;
             font-style: italic;
@@ -51,16 +65,18 @@
 
         .carousel-item img{
             height: 70vh;
-            width: 100%;
+           width: auto;
+           
+        }
+        .carousel-item a{
+          color: transparent;
         }
     }
 
 
 
 /* ofertas */
-h1{
-    color: tomato;
-}
+
 @mixin btn ($colBorde, $colHover ){
     display: inline-block;
     padding: 0.3%;
@@ -134,7 +150,10 @@ background-color: rgb(209, 248, 248);
  .iconos{
      display: flex;
      justify-content: space-around;
-     text-align: center;  
+     text-align: center;
+     margin: 5% 0 5% 0;  
+     
+    
      @each $nombre, $valor in $iconos-form {
          .icono-#{$nombre}{
              border-right: $valor solid 0.5px;
