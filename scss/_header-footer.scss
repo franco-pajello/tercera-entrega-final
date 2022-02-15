@@ -28,7 +28,7 @@ text-align: center;
 } 
     
 .navbar{
-      background-color: pink;
+      background-color: transparent;
       border-radius: 5px;
     
            .nav-item1 img{
@@ -49,7 +49,7 @@ text-align: center;
             }
             .nav-item4{
                 @extend .nav-item1;
-        
+
             }
             .nav-item5{
                 @extend .nav-item1;
