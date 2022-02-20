@@ -49,10 +49,10 @@
 
 }
 
-
+/* carrucel */
 
 .carrucel{
-   margin-top: 5%;
+   margin-top: 2%;
    margin-bottom: 5%;
         h5{
             font-size: 30vh;
@@ -166,4 +166,43 @@ background-color: rgb(209, 248, 248);
                 height: auto;
             }
         }
+    }
+    /* body carrito */
+    .body__carrito{
+       display: flex;
+       flex-direction: column;
+       min-height: 100vh;
+      .main__carrito{
+          max-width: 50%;
+         margin: 5% auto ;
+
+          .main__carrito__producto__precio{
+              display: flex;
+              justify-content: space-between;
+               margin: 5% auto;
+              
+            }
+            .main__carrito__vacío__home{
+                margin-top: 5%;
+               text-align: center;
+               strong{
+                   border: 1px solid black;
+                   padding: 0.5%;
+                 
+               }
+               a{
+                   color: black;
+                   text-decoration: none;
+                   :hover{
+                   transform: scale(1.2);
+                       color: gray;
+                   }
+               }
+            }
+        }
+    }
+    .tarjeta__container__producto{
+      justify-self: center;
+     width: 90%;
+     margin: 0;
     }

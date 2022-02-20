@@ -26,22 +26,41 @@ text-align: center;
  
 }
 } 
-    
+
+/* menú de navegación */
+$navbar-item:(
+  1
+  2
+  3
+  4
+);
+
 .navbar{
       background-color: transparent;
       border-radius: 5px;
-    
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      margin: 5% 0 5% 0;  
+   }
+     
+      @each $nombre, $valor in $navbar-item {
+          .nav-item#{$nombre} :hover{
+           transform: scale(1.2);
+          
+             }
+     }
+       
+
            .nav-item1 img{
             height: auto;
                width: 30%;
                justify-self: center;
                
-           
-           
-              
             }
             .nav-item2 {
                 @extend .nav-item1;
+                
           }
             .nav-item3{
                 @extend .nav-item1;
@@ -62,7 +81,7 @@ text-align: center;
             }
             
             
-        }
+        
         
  /* footer */
  .footer{
@@ -72,7 +91,7 @@ text-align: center;
    color:white;
    width: 100%;
    height: auto;
-   margin-top: 10px;
+   margin-top: auto;
    background-color: $colorFooter;
   & .footer__ubicacion{
     text-align: center;
