@@ -170,6 +170,7 @@
 
 .main__productos {
   text-align: center;
+  width: 100%;
 }
 
 .main__productos .main__productos p {
@@ -181,6 +182,10 @@
 .main__productos .main__productos1 img, .main__productos .main__productos2 img, .main__productos .main__productos3 img, .main__productos .main__productos4 img, .main__productos .main__productos5 img {
   width: 100%;
   height: auto;
+}
+
+.main__productos .main__productos5 img {
+  width: 100%;
 }
 
 /* carrucel */
@@ -379,7 +384,7 @@
 
 .body__carrito .main__carrito {
   max-width: 50%;
-  margin: 5% auto;
+  margin: 0% auto;
 }
 
 .body__carrito .main__carrito .main__carrito__producto__precio {
@@ -389,7 +394,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 5% auto;
+  margin: 3% auto;
 }
 
 .body__carrito .main__carrito .main__carrito__vacío__home {

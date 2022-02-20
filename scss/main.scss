@@ -21,7 +21,8 @@
 
 .main__productos{
     text-align: center;
-
+    width: 100%;
+   
 .main__productos p {
   color: black;
   text-decoration: transparent;
@@ -29,6 +30,7 @@
     .main__productos1 img{
         width: 100%;
         height: auto;
+       
     }
 .main__productos2{
     @extend .main__productos1;
@@ -44,6 +46,9 @@
 }
 .main__productos5{
     @extend .main__productos1;
+    img{
+        width: 100%;
+    }
     
 }
 
@@ -174,12 +179,12 @@ background-color: rgb(209, 248, 248);
        min-height: 100vh;
       .main__carrito{
           max-width: 50%;
-         margin: 5% auto ;
+         margin: 0% auto ;
 
           .main__carrito__producto__precio{
               display: flex;
               justify-content: space-between;
-               margin: 5% auto;
+               margin: 3% auto;
               
             }
             .main__carrito__vacío__home{
