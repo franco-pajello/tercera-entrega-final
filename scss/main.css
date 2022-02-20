@@ -75,60 +75,78 @@
 
 /* footer */
 .footer {
-  text-align: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  font-family: 'Merriweather Sans', sans-serif;
-  color: white;
+  color: black;
   width: 100%;
   height: auto;
   margin-top: auto;
   background-color: #fa9a9a;
 }
 
-.footer .footer__ubicacion {
-  text-align: center;
+.footer span {
+  color: black;
 }
 
-.footer .footer__ubicacion__icon {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.footer .container-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.footer .footer__instagram {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.footer .container-footer .container1__footer__nosotros__mas-info {
+  margin-left: 5%;
 }
 
-.footer .footer__ubicacion a {
-  color: white;
+.footer .container-footer .container1__footer__nosotros__mas-info .container1__footer__nosotros {
+  text-align: left;
+}
+
+.footer .container-footer .container1__footer__nosotros__mas-info .container1__footer__nosotros-p {
+  text-align: left;
+}
+
+.footer .container-footer .container1__footer__nosotros__mas-info .container1__footer__mas-info {
+  text-align: left;
+}
+
+.footer .container-footer .container1__footer__nosotros__mas-info .container1__footer__mas-info .btn-nosotos-leer-mas-cerrar {
+  background-color: #bab2b2;
+}
+
+.footer .container-footer .container2__footer__info__registro__redes {
+  padding-left: 10%;
+}
+
+.footer .container-footer .container2__footer__info__registro__redes .container2__footer__registro, .footer .container-footer .container2__footer__info__registro__redes .container2__footer__redes {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .container-footer .container2__footer__info__registro__redes .container2__footer__registro a, .footer .container-footer .container2__footer__info__registro__redes .container2__footer__redes a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer .container-footer .container3__footer__ubicacion__local__entregas {
+  padding-left: 5%;
+}
+
+.footer .container-footer .container3__footer__ubicacion__local__entregas .container3__footer__ubicacion {
+  padding-bottom: 1%;
+}
+
+.footer .container-footer .container3__footer__ubicacion__local__entregas .container3__footer__local__entregas ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .container-footer .container3__footer__ubicacion__local__entregas .container3__footer__local__entregas ul a {
   text-decoration: none;
 }
 
-.footer .footer__nosotros {
-  width: 33%;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  height: 20px;
-}
-
-.registrarme {
-  width: 33%;
-}
-
-.registrarme a {
-  color: white;
-  text-decoration: none;
+.footer .container-footer .container3__footer__ubicacion__local__entregas .container3__footer__local__entregas ul .entregas {
+  padding-top: 4%;
 }
 
 .tarjetas {

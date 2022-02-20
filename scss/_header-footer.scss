@@ -85,48 +85,70 @@ $navbar-item:(
         
  /* footer */
  .footer{
-    text-align: center;
-    justify-content: space-between;
-   font-family: 'Merriweather Sans', sans-serif;
-   color:white;
+   color:black;
    width: 100%;
    height: auto;
    margin-top: auto;
    background-color: $colorFooter;
-  & .footer__ubicacion{
-    text-align: center;
-    
-  }
-  & .footer__ubicacion__icon{
-   justify-content:center;
-    display: flex;
-    
-  }
-  & .footer__instagram{
-   justify-content:center;
-    display: flex;
-    
-  }
-  & .footer__ubicacion a{
-    color:white;
-    text-decoration: none;
-  }
-  & .footer__nosotros{
-    width: 33%;
-    align-items:stretch;
-    height: 20px;
-  }
-
+   span{
+     color: black;
    }
- .registrarme{
-  
-    width: 33%;
-    a{
-        color:white;
-        text-decoration: none;
+   .container-footer{
+    display: flex; 
+    justify-content: space-around;
+    .container1__footer__nosotros__mas-info{
+      margin-left: 5%;
+      
+      .container1__footer__nosotros{
+        text-align: left;
+      }
+      .container1__footer__nosotros-p{
+        text-align: left;
+      }
+      .container1__footer__mas-info{
+        text-align: left;
+        .btn-nosotos-leer-mas-cerrar{
+          background-color: rgb(186, 178, 178);
+        }
+      }
     }
+    .container2__footer__info__registro__redes{
+        padding-left: 10%;
+      .container2__footer__registro{
+        list-style: none;
+        padding: 0;
+        a{
+          text-decoration:none;
+          color: black;
+        }
+      }
+      .container2__footer__redes{
+        @extend .container2__footer__registro;
+      }
+    }
+    .container3__footer__ubicacion__local__entregas {
+      padding-left: 5%;
+      .container3__footer__ubicacion{
+        padding-bottom: 1%;
+      }
+      .container3__footer__local__entregas{
+        ul{
+         list-style: none;
+         padding: 0;
+         
+         a{
+           text-decoration: none;
+        
+         }
+         .entregas{
+          padding-top: 4%;
+         }
+        }
+      }
+    }
+  }
+ }
 
- }  
  .tarjetas{
   grid-area: tarjetas;
   display: flex;
