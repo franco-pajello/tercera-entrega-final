@@ -42,45 +42,50 @@ $navbar-item:(
       justify-content: space-around;
       text-align: center;
       margin: 5% 0 5% 0;  
-   }
-     
+      span{
+          color: black;
+      }
+      a{
+        text-decoration: none;
+      }
       @each $nombre, $valor in $navbar-item {
-          .nav-item#{$nombre} :hover{
-           transform: scale(1.2);
+        .nav-item#{$nombre} :hover{
+          transform: scale(1.2);
           
-             }
-     }
-       
-
-           .nav-item1 img{
-            height: auto;
-               width: 30%;
-               justify-self: center;
-               
-            }
-            .nav-item2 {
-                @extend .nav-item1;
-                
-          }
-            .nav-item3{
-                @extend .nav-item1;
-           
-            }
-            .nav-item4{
-                @extend .nav-item1;
-
-            }
-            .nav-item5{
-                @extend .nav-item1;
-               
-            }
-            
-            .nav-item6{
-                @extend .nav-item1;
-             
-            }
-            
-            
+        }
+      }
+      
+      
+      .nav-item1 img{
+        height: auto;
+        width: 30%;
+        justify-self: center;
+        
+      }
+      .nav-item2 {
+        @extend .nav-item1;
+        
+      }
+      .nav-item3{
+        @extend .nav-item1;
+        
+      }
+      .nav-item4{
+        @extend .nav-item1;
+        
+      }
+      .nav-item5{
+        @extend .nav-item1;
+        
+      }
+      
+      .nav-item6{
+        @extend .nav-item1;
+        
+      }
+      
+    }
+      
         
         
  /* footer */

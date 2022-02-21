@@ -46,27 +46,35 @@
   margin: 5% 0 5% 0;
 }
 
-.nav-item1 :hover, .nav-item2 :hover, .nav-item3 :hover, .nav-item4 :hover, .nav-item5 :hover, .nav-item6 :hover {
+.navbar span {
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .nav-item1 :hover, .navbar .nav-item2 :hover, .navbar .nav-item3 :hover, .navbar .nav-item4 :hover, .navbar .nav-item5 :hover, .navbar .nav-item6 :hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.nav-item2 :hover {
+.navbar .nav-item2 :hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.nav-item3 :hover {
+.navbar .nav-item3 :hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.nav-item4 :hover {
+.navbar .nav-item4 :hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.nav-item1 img, .nav-item2 img, .nav-item3 img, .nav-item4 img, .nav-item5 img, .nav-item6 img {
+.navbar .nav-item1 img, .navbar .nav-item2 img, .navbar .nav-item3 img, .navbar .nav-item4 img, .navbar .nav-item5 img, .navbar .nav-item6 img {
   height: auto;
   width: 30%;
   -ms-grid-column-align: center;
