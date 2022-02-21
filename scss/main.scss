@@ -22,15 +22,16 @@
 .main__productos{
     text-align: center;
     width: 100%;
-   
-.main__productos p {
-  color: black;
-  text-decoration: transparent;
-}
-    .main__productos1 img{
+    height: 100%;
+    span{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+    }
+    .main__productos1  img{
         width: 100%;
-        height: auto;
-       
+        max-height: auto; 
     }
 .main__productos2{
     @extend .main__productos1;
@@ -38,7 +39,7 @@
 }
 .main__productos3{
     @extend .main__productos1;
-    
+   
 }
 .main__productos4{
     @extend .main__productos1;
@@ -46,10 +47,7 @@
 }
 .main__productos5{
     @extend .main__productos1;
-    img{
-        width: 100%;
-    }
-    
+
 }
 
 }
@@ -93,28 +91,28 @@
 .main__form__botones{
 
     .main__form__btn1{
-        @include btn (green, transparent)
+        @include btn (gray, transparent)
         
     }
     .main__form__btn1:hover{
-        @include btn (black, rgb(169, 205, 218))
+        @include btn (black, rgb(184, 184, 184))
     }
     .main__form__btn2{
-        @include btn (blue, transparent )
+        @include btn (gray, transparent )
     }
     .main__form__btn2:hover{
-        @include btn (black, rgb(232, 116, 116))
+        @include btn (black, rgb(184, 184, 184))
     }
     .main__form__btn3{
-        @include btn ( rgb(232, 116, 116), transparent)
+        @include btn ( gray, transparent)
     }
     .main__form__btn3:hover{
-        @include btn (black, rgb(235, 187, 99))
+        @include btn (black, rgb(184, 184, 184))
     }
 }
 #main-form{
 border: rgb(169, 169, 169) 0.5px solid;
-background-color: rgb(209, 248, 248);
+background-color: $colorfondo;
     .main__form__ingrese__nombre{
         border: black solid 0.5px;
         cursor: text;
@@ -142,10 +140,10 @@ background-color: rgb(209, 248, 248);
     }
 }
  $iconos-form:(
-    vegano: lightgreen,
-    sin-sulfatos: lightgreen,
-    sin-parabenos: lightgreen,
-    sin-crueldad:  lightgreen,
+    vegano:gray,
+    sin-sulfatos:gray,
+    sin-parabenos:gray,
+    sin-crueldad: gray,
     1:Gray,
     2:Gray,
     3:Gray,
