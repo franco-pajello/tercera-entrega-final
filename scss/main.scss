@@ -1,5 +1,6 @@
 @import "header-footer";
 @import "variables";
+@import "media";
 
 * {
     margin: 0;
@@ -67,7 +68,7 @@
         
 
         .carousel-item img{
-            height: 70vh;
+            height:60vh;
            width: auto;
            
         }
