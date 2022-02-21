@@ -188,7 +188,7 @@
           align-items: center;
 }
 
-.tarjetas .tarjeta1 img, .tarjetas .tarjeta2 img, .tarjetas .tarjeta3 img, .tarjetas .tarjeta4 img, .tarjetas .tarjeta5 img, .tarjetas .tarjeta6 img, .tarjetas .tarjeta7 img, .tarjetas .tarjeta8 img, .tarjetas .tarjeta9 img {
+.tarjetas .tarjeta1 img, .tarjetas .tarjeta2 img, .tarjetas .tarjeta3 img, .tarjetas .tarjeta4 img, .tarjetas .tarjeta5 img, .tarjetas .tarjeta6 img, .tarjetas .tarjeta7 img, .tarjetas .tarjeta8 img, .tarjetas .tarjeta9 img, .tarjetas .tarjeta10 img, .tarjetas .tarjeta11 img {
   width: 100%;
   height: auto;
 }
@@ -435,7 +435,7 @@
 }
 
 /* body carrito */
-.body__carrito {
+.body__carrito, .body-ofertas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -446,12 +446,12 @@
   min-height: 100vh;
 }
 
-.body__carrito .main__carrito {
+.body__carrito .main__carrito, .body-ofertas .main__carrito {
   max-width: 50%;
   margin: 0% auto;
 }
 
-.body__carrito .main__carrito .main__carrito__producto__precio {
+.body__carrito .main__carrito .main__carrito__producto__precio, .body-ofertas .main__carrito .main__carrito__producto__precio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,22 +461,22 @@
   margin: 3% auto;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home {
+.body__carrito .main__carrito .main__carrito__vacío__home, .body-ofertas .main__carrito .main__carrito__vacío__home {
   margin-top: 5%;
   text-align: center;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home strong {
+.body__carrito .main__carrito .main__carrito__vacío__home strong, .body-ofertas .main__carrito .main__carrito__vacío__home strong {
   border: 1px solid black;
   padding: 0.5%;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home a {
+.body__carrito .main__carrito .main__carrito__vacío__home a, .body-ofertas .main__carrito .main__carrito__vacío__home a {
   color: black;
   text-decoration: none;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home a :hover {
+.body__carrito .main__carrito .main__carrito__vacío__home a :hover, .body-ofertas .main__carrito .main__carrito__vacío__home a :hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   color: gray;

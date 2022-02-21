@@ -173,7 +173,7 @@ background-color: $colorfondo;
         }
     }
     /* body carrito */
-    .body__carrito{
+    .body__carrito, .body-ofertas{
        display: flex;
        flex-direction: column;
        min-height: 100vh;
