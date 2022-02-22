@@ -23,7 +23,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
   vertical-align: baseline;
   text-decoration: none;
@@ -38,13 +37,14 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-left: 2%;
-  padding-right: 2%;
+  /*   padding-left: 2%;
+    padding-right: 2%;   */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: transparent;
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -62,7 +62,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   text-align: center;
-  margin: 5% 0 5% 0;
+  /*   margin: 5% 0 5% 0; */
 }
 
 .navbar span {
@@ -95,7 +95,7 @@
 
 .navbar .nav-item1 img, .navbar .nav-item2 img, .navbar .nav-item3 img, .navbar .nav-item4 img, .navbar .nav-item5 img, .navbar .nav-item6 img {
   height: auto;
-  width: 30%;
+  max-width: 30%;
   -ms-grid-column-align: center;
       justify-self: center;
 }
@@ -103,7 +103,7 @@
 /* footer */
 .footer {
   color: black;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin-top: auto;
   background-color: #fa9a9a;
@@ -119,10 +119,6 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.footer .container-footer .container1__footer__nosotros__mas-info {
-  margin-left: 5%;
 }
 
 .footer .container-footer .container1__footer__nosotros__mas-info .container1__footer__nosotros {
@@ -181,7 +177,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -224,8 +220,15 @@
           box-sizing: border-box;
 }
 
+/*  .body{
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: block; */
+/* } */
 .container {
-  width: 100% !important;
+  width: 100%  !important;
   max-width: 100% !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -234,7 +237,7 @@
 
 .main__productos {
   text-align: center;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
@@ -247,7 +250,7 @@
 }
 
 .main__productos .main__productos1 img, .main__productos .main__productos2 img, .main__productos .main__productos3 img, .main__productos .main__productos4 img, .main__productos .main__productos5 img {
-  width: 100%;
+  max-width: 100%;
   max-height: auto;
 }
 
@@ -255,6 +258,7 @@
 .carrucel {
   margin-top: 2%;
   margin-bottom: 5%;
+  max-width: 100%;
 }
 
 .carrucel h5 {
@@ -266,7 +270,7 @@
 
 .carrucel .carousel-item img {
   height: 60vh;
-  width: auto;
+  max-width: auto;
 }
 
 .carrucel .carousel-item a {
@@ -360,7 +364,7 @@
 }
 
 .iconos .icono-vegano img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -370,7 +374,7 @@
 }
 
 .iconos .icono-sin-sulfatos img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -380,7 +384,7 @@
 }
 
 .iconos .icono-sin-parabenos img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -390,7 +394,7 @@
 }
 
 .iconos .icono-sin-crueldad img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -400,7 +404,7 @@
 }
 
 .iconos .icono-1 img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -410,7 +414,7 @@
 }
 
 .iconos .icono-2 img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -420,7 +424,7 @@
 }
 
 .iconos .icono-3 img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -430,12 +434,12 @@
 }
 
 .iconos .icono-4 img {
-  width: 50%;
+  max-width: 50%;
   height: auto;
 }
 
 /* body carrito */
-.body__carrito, .body-ofertas {
+.body__carrito {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -446,12 +450,12 @@
   min-height: 100vh;
 }
 
-.body__carrito .main__carrito, .body-ofertas .main__carrito {
+.body__carrito .main__carrito {
   max-width: 50%;
   margin: 0% auto;
 }
 
-.body__carrito .main__carrito .main__carrito__producto__precio, .body-ofertas .main__carrito .main__carrito__producto__precio {
+.body__carrito .main__carrito .main__carrito__producto__precio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,22 +465,22 @@
   margin: 3% auto;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home, .body-ofertas .main__carrito .main__carrito__vacío__home {
+.body__carrito .main__carrito .main__carrito__vacío__home {
   margin-top: 5%;
   text-align: center;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home strong, .body-ofertas .main__carrito .main__carrito__vacío__home strong {
+.body__carrito .main__carrito .main__carrito__vacío__home strong {
   border: 1px solid black;
   padding: 0.5%;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home a, .body-ofertas .main__carrito .main__carrito__vacío__home a {
+.body__carrito .main__carrito .main__carrito__vacío__home a {
   color: black;
   text-decoration: none;
 }
 
-.body__carrito .main__carrito .main__carrito__vacío__home a :hover, .body-ofertas .main__carrito .main__carrito__vacío__home a :hover {
+.body__carrito .main__carrito .main__carrito__vacío__home a :hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   color: gray;
@@ -485,7 +489,7 @@
 .tarjeta__container__producto {
   -ms-grid-column-align: center;
       justify-self: center;
-  width: 90%;
+  max-width: 90%;
   margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
