@@ -16,8 +16,6 @@
 .header__menú{
     display: flex;
     justify-content: space-between;
-  /*   padding-left: 2%;
-    padding-right: 2%;   */
     align-items: center;
     background-color:transparent;
     width: 100%;
@@ -104,7 +102,7 @@ $navbar-item:(
     display: flex; 
     justify-content: space-around;
     .container1__footer__nosotros__mas-info{
-     
+      padding-left: 5%;
     
       .container1__footer__nosotros{
         text-align: left;
