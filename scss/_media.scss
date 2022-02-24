@@ -4,6 +4,12 @@
       display: none;
   }
 }
+ @media (min-width: 991px){
+  .menu-hambur{
+      display: none;
+  }
+}
+
 @media (min-width: 200px) and (max-width:992px){
     .nav-item1 img, .nav-item2 img, .nav-item3 img, .nav-item4 img, .nav-item5 img, .nav-item6 img{
         display: none;

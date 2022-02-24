@@ -16,9 +16,8 @@
        
             
             <header class="header__menú  col-12">
-              
+             
               <!-- menu de nav 1 -->
-
               <nav class="navbar  menu-1 navbar-expand-lg navbar-light  col-lg-4 col-.">
                 <div class="container-fluid">
                     
@@ -54,7 +53,7 @@
     
               <!-- nav2  -->
     
-              <nav class="navbar navbar-expand-lg navbar-light  col-6 col-lg-4">
+              <nav class="navbar navbar-expand-lg menu-1 navbar-light  col-6 col-lg-4">
                 <div class="container-fluid">
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,57 +64,86 @@
                             <li class="nav-item4">
                                   <a class="nav-link"  href="https://web.whatsapp.com/" target="_blank"><img src="../img icon/wsp-icon.png" alt="hablanos al wsp">
                                   </a>
-                                <div class="nav-item44">
-                                    <a href="../index.html">
-                                        <span>Home</span>
-                                    </a>
-                                   
-                                </div>
+                               
                               </li>
                               <li class="nav-item5">
                                   <a class="nav-link"href="https://www.instagram.com/?hl=es" target="_blank"><img src="../img icon/insta-icon.ico" alt="seguinos en insta">
                                   </a>
                              
-                                    <div class="nav-item55">
-                                        <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">
-                                            <span>Email</span>
-                                        </a>
-                                    </div>
+                                   
                               </li>
-                              <li class="nav-item555">
-                        
-                                  <div>
-                                      <a href="../productos/tienda.html" >
-                                          <span>Tienda</span>
-                                      </a>
-                                  </div>
-                            </li>
                            
-                              <li class="nav-item6 dropdown">
-                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                
-                                      <img src="../img icon/hamburguesa.png" alt="menú">
-    
-                                      <div class="nav-item66">
-                                          
-                                          <span>Menú</span>
-                                          
-                                        </div>
-                                    </a>
-                                  <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                      <li><a class="dropdown-item22" href="../resgistrarme_compras/mis-compras.html"><span>carrito</span></a></li>
-                                      <li><a class="dropdown-item11" href="../productos/tienda.html"><span>Tienda</span></a></li>
-                                      <li><a class="dropdown-item33" href="../productos/ofertas.html"><span>Ofertas</span></a></li>
-                                    <li><a class="dropdown-item33" href="../productos/shampoo.html"><span>Shampoo</span></a></li>
-                                    <li><a class="dropdown-item33" href="../productos/acondicionador.html"><span>Acondicionador</span></a></li>
-                                    <li><a class="dropdown-item33" href="../productos/destacados.html"><span>Más vendidos</span></a></li>
-                                      <li><a class="dropdown-item33" href="../resgistrarme_compras/por-mayor.html"><span>Registrarme</span></a></li>
-                                  </ul>
-                              </li>
                           </ul>
                       </div>
                   </div>
               </nav>
+               <!-- menu hambur -->
+               <div class="col-6">
+    
+                   <div class="col-2 menu-hambur">
+                       
+                       <a class="btn btn-secondary d-inline-flex" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                           Menú
+                        </a>
+                        
+                        
+                        
+                        <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Curie Cosmética</h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body w-60 ">
+                                <div>
+                                    <ul>
+                                        <li>
+                                    <a href="./index.html"> Home</a>
+                                </li>
+                                <li><a href="../resgistrarme_compras/mis-compras.html"> Carritos</a></li>
+                                <li><a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank">
+                                    <span>Email</span>
+                                </a></li>
+                                <li><a href="../resgistrarme_compras/por-mayor.html" target="_blank">
+                                    <span>Registrarme</span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                Tienda
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="../productos/tienda.html">Todos los productos</a></li>
+                                <li><a class="dropdown-item" href="../productos/destacados.html">Más vendidos</a></li>
+                                <li><a class="dropdown-item" href="../productos/ofertas.html">Ofertas</a></li>
+                                <li><a class="dropdown-item" href="../productos/shampoo.html">Shampoo</a></li>
+                                <li><a class="dropdown-item" href="../productos/acondicionador.html">Acondicionador</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                Contactanos
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="https://web.whatsapp.com/">Whatsapp</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                Redes
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="https://www.instagram.com/?hl=es-la " target="_blank" >Instagram</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
             </header>
             <!-- todos los productos con su descripción y precio -->   
      <section class="grid-bootstrap tarjeta__container__producto text-center col-12 ">
